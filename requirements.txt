@@ -1,0 +1,6 @@
+deap
+pygad
+numpy
+pandas
+matplotlib
+seaborn

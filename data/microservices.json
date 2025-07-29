@@ -1,0 +1,24 @@
+[
+    {
+        "id": "auth-v1",
+        "name": "Authentication Service v1",
+        "type": "authentication",
+        "capabilities": ["user_authentication", "token_generation"],
+        "base_latency_ms": 50,
+        "base_availability_percent": 99.9,
+        "base_throughput_rps": 100,
+        "cost_per_request": 0.005,
+        "fixed_hourly_cost": 0.02
+    },
+    {
+        "id": "db-sql-lite",
+        "name": "SQL Database (Lite)",
+        "type": "database",
+        "capabilities": ["data_storage", "query_data"],
+        "base_latency_ms": 10,
+        "base_availability_percent": 99.5,
+        "base_throughput_rps": 50,
+        "cost_per_request": 0.001,
+        "fixed_hourly_cost": 0.01
+    }
+]
